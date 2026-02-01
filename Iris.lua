@@ -13030,7 +13030,6 @@ local API = function(Iris: Types.Iris)
     end
 end
 
--- Iris:Init(game:GetService("CoreGui"))
--- Iris:Connect(Iris.ShowDemoWindow)
+widgetModule(Internal)(Internal)
 
 return Iris
